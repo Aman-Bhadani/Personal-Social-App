@@ -103,7 +103,7 @@ const UserProfile = () => {
             />
           ))
         ) : (
-          <Typography variant="h6">User has not made any post</Typography>
+          <Typography variant="h6">No post made by User</Typography>
         )}
       </div>
       <div className="accountright">

@@ -1,7 +1,8 @@
 .post {
   width: 60%;
-  background-color: #fff;
-  border-radius: 5px;
+  /* background-color: #fff; */
+  background-color: bisque;
+  border-radius: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 0 1vmax 2vmax;
   margin: 2vmax;
@@ -29,7 +30,8 @@
 
 .postDetails > a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
+  color: blue;
   margin: 1vmax;
 }
 

@@ -4,9 +4,14 @@
   grid-template-columns: 1fr 400px;
   height: 92vh;
 }
-
+.DialogBox{
+  background-color: pink;
+  border-radius: 200px;
+  font-weight: bolder;
+  color: blue;
+}
 .accountleft {
-  background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+  background-image: linear-gradient(to right, rgb(238, 115, 115), brown);
 
   display: flex;
   flex-direction: column;
@@ -16,6 +21,7 @@
   overflow-y: auto;
 }
 .accountright {
+  background-color: pink;
   padding: 2vmax;
   box-sizing: border-box;
   overflow-y: auto;
@@ -37,7 +43,11 @@
 }
 
 .accountright > a {
-  color: rgb(73, 73, 73);
+  /* color: rgb(73, 73, 73); */
+  color:white;
+  background-color: rgb(64, 114, 183);
+  border-radius: 5px;
+  /* border:2px solid black; */
   text-decoration: none;
   font: 100 1.2rem "Roboto";
   text-align: center;
@@ -61,13 +71,14 @@
 }
 .accountright > div > button {
   border: none;
-  background-color: white;
+  background-color:silver;
+  border-radius: 5px;
   cursor: pointer;
   transition: all 0.5s;
   padding: 0.5vmax 1vmax;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 842px) {
   .account {
     grid-template-columns: 2fr 1fr;
   }
@@ -78,7 +89,7 @@
   }
 
   .accountright > a {
-    font: 100 1rem "Roboto";
+    /* font: 100 1rem "Roboto"; */
     margin-top: 6vw;
   }
 }

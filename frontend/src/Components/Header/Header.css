@@ -12,11 +12,11 @@
 .header > a > svg {
   font-size: 2vmax;
   transition: all 0.5s;
-  color: rgba(0, 0, 0, 0.445);
+  color: rgb(234, 15, 197);
 }
 
 .header > a > svg:hover {
-  color: black;
+  color: pink;
   transform: scale(1.2);
 }
 

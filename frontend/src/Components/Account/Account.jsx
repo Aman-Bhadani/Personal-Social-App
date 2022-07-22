@@ -76,7 +76,7 @@ const Account = () => {
             />
           ))
         ) : (
-          <Typography variant="h6">You have not made any post</Typography>
+          <Typography variant="h6">No any post made by you</Typography>
         )}
       </div>
       <div className="accountright">
@@ -119,7 +119,7 @@ const Account = () => {
           onClick={deleteProfileHandler}
           disabled={deleteLoading}
         >
-          Delete My Profile
+          Delete Profile
         </Button>
 
         <Dialog

@@ -1,6 +1,6 @@
 .register {
   min-height: 100vh;
-  background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+  background-image: linear-gradient(to right, pink,rgb(227, 8, 172));
 
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@
 .registerForm {
   background-color: white;
   width: 50%;
-  border-radius: 30px;
+  border-radius: 100px;
   box-sizing: border-box;
   padding: 2vmax;
   display: flex;
@@ -25,9 +25,10 @@
   padding: 1vmax 2vmax;
   width: 80%;
   border-radius: 40px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   margin: 2vmax;
-  font: 100 1.2rem "Roboto", sans-serif;
+  font-size: 20px;
+  /* font: 100 1.2rem "Roboto", sans-serif; */
   outline: none;
 }
 
@@ -47,9 +48,9 @@
 }
 
 .registerForm > a {
-  align-self: flex-end;
+  align-self: center;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.342);
+  color: blue;
   margin: 2vmax;
 }
 

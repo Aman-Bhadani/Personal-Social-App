@@ -123,8 +123,12 @@ const Post = ({
 
       <button
         style={{
-          border: "none",
-          backgroundColor: "white",
+          // border: "none",
+          border:"2px solid white",
+          borderRadius: "20%",
+          backgroundColor: "black",
+          padding:"5px",
+          color:"white",
           cursor: "pointer",
           margin: "1vmax 2vmax",
         }}
@@ -177,7 +181,7 @@ const Post = ({
               type="text"
               value={commentValue}
               onChange={(e) => setCommentValue(e.target.value)}
-              placeholder="Comment Here..."
+              placeholder="Comment"
               required
             />
 
@@ -200,7 +204,7 @@ const Post = ({
               />
             ))
           ) : (
-            <Typography>No comments Yet</Typography>
+            <Typography>No any comments</Typography>
           )}
         </div>
       </Dialog>
@@ -217,7 +221,7 @@ const Post = ({
               type="text"
               value={captionValue}
               onChange={(e) => setCaptionValue(e.target.value)}
-              placeholder="Caption Here..."
+              placeholder="Place Caption"
               required
             />
 

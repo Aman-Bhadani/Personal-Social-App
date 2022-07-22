@@ -44,7 +44,7 @@ const Register = () => {
     <div className="register">
       <form className="registerForm" onSubmit={submitHandler}>
         <Typography variant="h3" style={{ padding: "2vmax" }}>
-          Social Aap
+         Personal Social App
         </Typography>
 
         <Avatar
@@ -83,7 +83,7 @@ const Register = () => {
         />
 
         <Link to="/">
-          <Typography>Already Signed Up? Login Now</Typography>
+          <Typography>Login Now</Typography>
         </Link>
 
         <Button disabled={loading} type="submit">

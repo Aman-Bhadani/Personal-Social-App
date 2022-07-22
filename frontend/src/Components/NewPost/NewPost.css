@@ -1,6 +1,6 @@
 .newPost {
   min-height: 100vh;
-  background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+  background-image: linear-gradient(to right, rgb(238, 115, 115), brown);
 
   display: flex;
   align-items: center;
@@ -10,10 +10,10 @@
 }
 
 .newPostForm {
-  background-color: white;
+  background-color: pink;
   height: 100%;
   width: 50%;
-  border-radius: 30px;
+  border-radius: 50px;
   box-sizing: border-box;
   padding: 2vmax;
   display: flex;
@@ -30,12 +30,13 @@
 }
 
 .newPostForm > input[type="text"] {
-  width: 100%;
+  width: 70%;
   padding: 1vmax;
-  border-radius: 30px;
+  border-radius: 10px;
   border: none;
   outline: none;
-  font: 100 1.2rem "Roboto", sans-serif;
+  /* font: 100 1.2rem "Roboto", sans-serif; */
+  font-size: 20px;
 }
 
 .newPostForm > input[type="file"] {

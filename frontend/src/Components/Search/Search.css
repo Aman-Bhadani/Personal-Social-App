@@ -1,6 +1,6 @@
 .search {
   height: 100vh;
-  background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+  background-image: linear-gradient(to right, rgb(238, 115, 115), brown);
 
   display: flex;
   align-items: center;
@@ -10,10 +10,10 @@
 }
 
 .searchForm {
-  background-color: white;
+  background-color: pink;
   height: 100%;
   width: 50%;
-  border-radius: 30px;
+  border-radius: 60px;
   box-sizing: border-box;
   padding: 2vmax;
   display: flex;
@@ -26,7 +26,7 @@
   padding: 1vmax 2vmax;
   width: 80%;
   border-radius: 40px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   margin: 2vmax;
   font: 100 1.2rem "Roboto", sans-serif;
   outline: none;

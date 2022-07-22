@@ -36,7 +36,7 @@ const Login = () => {
     <div className="login">
       <form className="loginForm" onSubmit={loginHandler}>
         <Typography variant="h3" style={{ padding: "2vmax" }}>
-          Social Aap
+          Personal Social App
         </Typography>
 
         <input
@@ -56,13 +56,13 @@ const Login = () => {
         />
 
         <Link to="/forgot/password">
-          <Typography>Forgot Password?</Typography>
+          <Typography>Forgot Password</Typography>
         </Link>
 
         <Button type="submit">Login</Button>
 
         <Link to="/register">
-          <Typography>New User?</Typography>
+          <Typography>New User</Typography>
         </Link>
       </form>
     </div>

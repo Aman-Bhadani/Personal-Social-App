@@ -53,7 +53,7 @@ const NewPost = () => {
         <input type="file" accept="image/*" onChange={handleImageChange} />
         <input
           type="text"
-          placeholder="Caption..."
+          placeholder="Write Caption"
           value={caption}
           onChange={(e) => setCaption(e.target.value)}
         />
